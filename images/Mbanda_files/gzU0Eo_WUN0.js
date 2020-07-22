@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["7NhnU"]); }
+
+__d("WorkAdminIntroductionNuxGating",["SimpleNUXMessage","SimpleNUXMessageTypes","qex"],(function(a,b,c,d,e,f){"use strict";function a(){var a;a=(a=b("qex")._("1018202"))!=null?a:!1;var c=b("SimpleNUXMessage").hasUserSeenMessage(b("SimpleNUXMessageTypes").WORK_ACTIVATION_ADMIN_INTRODUCTION);return a&&!c}e.exports={shouldShowAdminIntroductionNux:a}}),null);

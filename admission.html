@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Apply</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css" type="text/css">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="Unicat project">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
+	<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="styles/contact.css">
+	<link rel="stylesheet" type="text/css" href="styles/contact_responsive.css">
+	<style>
+	* {
+    box-sizing: border-box;
+}
+
+
+
+h1 {
+    text-align: center;
+}
+
+#strawberry {
+    color: rgb(17, 17, 17);
+    font-size: 1.3em;
+}
+.wrapper {
+    background: #acc2d9;
+    border-radius: 35px;
+    box-shadow: 0 0 10px rgba(49, 12, 14, 0.4);
+		font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    padding: 1.5rem;
+    color:rgb(14, 12, 12);
+}
+
+
+#description {
+    text-align: center;
+    padding: 1.5em;
+}
+
+.basic {
+    padding: 0.5rem;
+    text-align: center;
+    background: white;
+    width: 100%;
+}
+
+.basic input {
+    border-radius: 5px;
+    border: 2px #427bb8 (253, 213, 216) solid;
+    padding: 0.5rem;
+    margin-left: 1rem;
+}
+
+.question {
+    padding-top: 1rem;
+    padding-left: 3rem;
+    padding-bottom: 2rem;
+}
+
+.question p {
+    padding-bottom: 1rem;
+    line-height: 2rem;
+}
+
+
+.question select {
+    outline: none;
+    color: #310C0E;
+    height: 2rem;
+    width: 150px;
+    border-radius: 5px;
+    border: 2px white solid;
+}
+
+.question input[type='radio'] {
+  -webkit-appearance: none;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  outline: none;
+  margin-right: 1rem;
+  box-shadow: 0 0 0 2px rgba(49, 12, 14, 0.356);
+}
+
+.question input[type='radio']:checked {
+  box-shadow: 0 0 0 2px rgba(49, 12, 14, 0.356);
+}
+
+.question input[type='radio']:before {
+  content: '';
+  display: block;
+  width: 60%;
+  height: 60%;
+  margin: 20% auto;
+  border-radius: 50%;
+}
+
+.question input[type='radio']:checked:before {
+  background: rgba(49, 12, 14, 0.356);
+}
+    
+.question input[type='checkbox'] {
+  -webkit-appearance: none;
+  width: 10px;
+  height: 10px;
+  border-radius: 1px;
+  outline: none;
+  margin-right: 1rem;
+  box-shadow: 0 0 0 2px rgba(49, 12, 14, 0.356);
+}
+
+.question input[type='checkbox']:checked {
+  box-shadow: 0 0 0 2px rgba(49, 12, 14, 0.356);
+}
+
+.question input[type='checkbox']:before {
+  content: '';
+  display: block;
+  width: 60%;
+  height: 60%;
+  margin: 20% auto;
+  border-radius: 1px;
+}
+
+.question input[type='checkbox']:checked:before {
+  background: rgba(49, 12, 14, 0.356);
+}
+
+#comment-p {
+    margin-bottom: 0;
+    padding-bottom: 1rem;;
+}
+
+#comments {
+    display: block;
+    outline: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: rgba(49, 12, 14, 0.356);
+    height: 100px;
+    width: 50%;
+    margin-bottom: 1rem;
+}
+
+#submit {
+    outline: none;
+    border-radius: 10px;
+    padding: 0.8rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    color: #427bb8;
+}
+
+#submit:hover {
+    	background-color: #427bb8;
+    color: black;
+}
+	
+	</style>
+</head>
+<body>
+
+	<div class="super_container">
+
+		<!-- Header -->
+
+		<header class="header">
+
+			<!-- Top Bar -->
+			<div class="top_bar">
+				<div class="top_bar_container">
+					<div class="container">
+						<div class="row">
+							<div class="col">
+								<div class="top_bar_content d-flex flex-row align-items-center justify-content-start">
+									<ul class="top_bar_contact_list">
+										<li>
+											<div class="question">AN INITIATIVE BY IRO</div>
+										</li>
+										<li>
+											<i class="fa fa-phone" aria-hidden="true"></i>
+											<div>+1 (614)8161-7227</div>
+										</li>
+										<li>
+											<i class="fa fa-envelope-o" aria-hidden="true"></i>
+											<div>mbandainnocent@gmail.com</div>
+										</li>
+									</ul>
+									<div class="top_bar_login ml-auto">
+										<div class="login_button"><a href="#">Apply</a></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Header Content -->
+			<div class="header_container">
+				<div class="container">
+					<div class="row">
+						<div class="col">
+							<div class="header_content d-flex flex-row align-items-center justify-content-start">
+								<div class="logo_container">
+									<img src="images/logos1.png" style="width:17%;">
+									<a href="#">
+										<div class="logo_text" img src="images/logos1.png" alt="">
+											SheCan<span>CODE</span></div>
+									</a>
+								</div>
+								<nav class="main_nav_contaner ml-auto">
+									<ul class="main_nav">
+										<li class="active"><a href="index.html">Home</a></li>
+										<li><a href="Programs.html"> Program</a></li>
+										<li><a href="about.html">About Us</a></li>
+										<li><a href="donate.html">Donate</a></li>
+									</ul>
+									<div class="hamburger menu_mm">
+										<i class="fa fa-bars menu_mm" aria-hidden="true"></i>
+									</div>
+								</nav>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+	</div>
+	<!-- Header Search Panel -->
+	<div class="header_search_container">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="header_search_content d-flex flex-row align-items-center justify-content-end">
+						<form action="#" class="header_search_form">
+							<input type="search" class="search_input" placeholder="Search" required="required">
+							<button
+								class="header_search_button d-flex flex-column align-items-center justify-content-center">
+								<i class="fa fa-search" aria-hidden="true"></i>
+							</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</header>
+
+	<!-- Menu -->
+	<div class="menu d-flex flex-column align-items-end justify-content-start text-right menu_mm trans_400">
+		<div class="menu_close_container">
+			<div class="menu_close">
+				<div></div>
+				<div></div>
+			</div>
+		</div>
+
+		<nav class="menu_nav">
+			<ul class="menu_mm">
+				<li class="menu_mm"><a href="index.html">Home</a></li>
+				<li class="menu_mm"><a href="about.html">About Us</a></li>
+				<li class="menu_mm"><a href="Programs.html">Program</a></li>
+				<li class="menu_mm"><a href="donate.html">Donate</a></li>
+			</ul>
+		</nav>
+	</div>
+
+	<!-- Home -->
+
+	<div class="home">
+		<div class="breadcrumbs_container">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="breadcrumbs">
+							<ul>
+								<li><a href="index.html">Home</a></li>
+								<li>Admission</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Contact -->
+
+	<div class="contact">
+
+			<h1 id="title"><span id="strawberry"></span>SheCanCODE Registration</h1>
+			<div class="wrapper">
+				<p id="description">Apply to our Prpgram from below</p>
+				<form id="survey-form">
+					<div class="basic">
+					<p>
+						<label id="name-label" for="name">Name:</label>
+						<input id="name" type="text" placeholder="Enter your name" required>
+					</p>
+					<p>
+						<label id="email-label" for="email">Email:</label>
+						<input id="email" type="email" placeholder="Enter your Email" required>
+					</p>
+					<p>
+						<label id="number-label" for="number">Age:</label>
+						<input id="number" type="number" min="5" max="200" placeholder="Age">
+					</p>
+					</div>
+		
+					<div class="question">
+					<p>Do you have Programming background?<br>
+						<input class="button" id="no" type="radio" name="level" value="no">
+						<label for="no">No, not at all</label><br>
+						<input class="button" id="beginner" type="radio" name="level" value="beginner">
+						<label for="beginner">Yes, beginner level</label><br>
+						<input class="button" id="intermediate" type="radio" name="level" value="intermediate">
+						<label for="intermediate">Yes, intermediate level</label><br>
+						<input class="button" id="pro" type="radio" name="level" value="pro">
+						<label for="pro">Professional level</label><br>
+					</p>
+					<p>Pick days for classes: <br>
+						<input type="checkbox" name="day" value="monday"> Monday
+						<br>
+						<input type="checkbox" name="day" value="tuesday"> Tuesday
+						<br>
+						<input type="checkbox" name="day" value="wednesday"> Wednesday
+						<br>
+						<input type="checkbox" name="day" value="thursday"> Thursday
+						<br>
+						<input type="checkbox" name="day" value="friday"> Friday
+						<br>
+					</p>
+		
+					<p id="comment-p">Comments:</p>
+					<textarea name="comments" id="comments">Enter your comment here</textarea><br>
+					<input id="submit" type="submit" value="Submit">
+				 
+					</div>
+				</form>
+			</div>
+	</div>
+
+	
+
+	<!-- Footer -->
+<footer class="footer">
+			<div class="footer_background" style="background-image:url(images/footer_background.png)"></div>
+			<div class="container">
+				<div class="row footer_row">
+					<div class="col">
+						<div class="footer_content">
+							<div class="row">
+
+								<div class="col-lg-3 footer_col">
+
+									<!-- Footer About -->
+									<div class="footer_section footer_about">
+										<div class="footer_logo_container">
+											<a href="#">
+												<div class="footer_logo_text">SheCan<span>Code</span></div>
+											</a>
+										</div>
+										<div class="footer_about_text">
+											<p>Lorem ipsum dolor sit ametium, consectetur adipiscing elit.</p>
+										</div>
+										<div class="footer_social">
+											<ul>
+												<li><a
+														href="https://www.facebook.com/igirerwandaorganization/?ref=search&__tn__=%2Cd%2CP-R&eid=ARDYQSIfczmFwNEChAVIWIdH8JSgM2AXMUCu7yIfHuUaQ0C_Xfjzl_kJ_SwrJdVxtqhw7_qYaeLAg85C"><i
+															class="fa fa-facebook" aria-hidden="true"></i></a></li>
+												<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+												</li>
+												<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+												</li>
+												<li><a href="  https://twitter.com/ShecancodeRW "><i
+															class="fa fa-twitter" aria-hidden="true"></i></a>
+												</li>
+											</ul>
+										</div>
+									</div>
+
+								</div>
+
+								<div class="col-lg-3 footer_col">
+
+									<!-- Footer Contact -->
+									<div class="footer_section footer_contact">
+										<div class="footer_title">Contact Us</div>
+										<div class="footer_contact_info">
+											<ul>
+												<li>Email:mbandainnocent@gmail.com</li>
+												<li>Phone: +(88) 111 555 666</li>
+												<li> KN 72 st Kicukiro District</li>
+											</ul>
+										</div>
+									</div>
+
+								</div>
+
+								<div class="col-lg-3 footer_col">
+
+									<!-- Footer links -->
+									<div class="footer_section footer_links">
+										<div class="footer_title">Contact Us</div>
+										<div class="footer_links_container">
+											<ul>
+												<li><a href="index.html">Home</a></li>
+												<li><a href="about.html">About</a></li>
+												<li><a href="contact.html">Contact</a></li>
+												<li><a href="#">Features</a></li>
+												<li><a href="courses.html">Courses</a></li>
+												<li><a href="#">Events</a></li>
+												<li><a href="#">Gallery</a></li>
+												<li><a href="#">FAQs</a></li>
+											</ul>
+										</div>
+									</div>
+
+								</div>
+
+								<div class="col-lg-3 footer_col clearfix">
+
+									<!-- Footer links -->
+									<div class="footer_section footer_mobile">
+										<div class="footer_title">Mobile</div>
+										<div class="footer_mobile_content">
+											<div class="footer_image"><a href="#"><img src="images/mobile_1.png"
+														alt=""></a>
+											</div>
+											<div class="footer_image"><a href="#"><img src="images/mobile_2.png"
+														alt=""></a>
+											</div>
+										</div>
+									</div>
+
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row copyright_row">
+					<div class="col">
+						<div class="copyright d-flex flex-lg-row flex-column align-items-center justify-content-start">
+							<div class="cr_text">
+								<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+								<script>document.write(new Date().getFullYear());</script> Developed by Yvonne uwimana
+								<i class="fa fa-heart-o" aria-hidden="true"></i> For <a href="" target="_blank">
+									SheCanCode</a>
+								<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+							</div>
+							<div class="ml-lg-auto cr_links">
+								<ul class="cr_list">
+									<li><a href="#">Copyright notification</a></li>
+									<li><a href="#">Terms of Use</a></li>
+									<li><a href="#">Privacy Policy</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<!-- Footer -->
+
+
+		<script src="js/jquery-3.2.1.min.js"></script>
+		<script src="styles/bootstrap4/popper.js"></script>
+		<script src="styles/bootstrap4/bootstrap.min.js"></script>
+		<script src="plugins/greensock/TweenMax.min.js"></script>
+		<script src="plugins/greensock/TimelineMax.min.js"></script>
+		<script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
+		<script src="plugins/greensock/animation.gsap.min.js"></script>
+		<script src="plugins/greensock/ScrollToPlugin.min.js"></script>
+		<script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+		<script src="plugins/easing/easing.js"></script>
+		<script src="plugins/parallax-js-master/parallax.min.js"></script>
+		<script src="js/custom.js"></script>
+</body>
+
+</html>

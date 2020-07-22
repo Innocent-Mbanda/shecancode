@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["RsPSD"]); }
+
+__d("WorkGalahadAmbientNUX.react",["React","XUIAmbientNUX.react","useWorkGalahadEventEmitter"],(function(a,b,c,d,e,f){"use strict";__p&&__p();var g=b("React").useEffect,h=b("React").useState;function a(a){var c=a.nuxData,d=h(a.shown),e=d[0],f=d[1];g(function(){e&&c.onShow},[e,c.onShow]);d=b("useWorkGalahadEventEmitter")([c.event]);var i=d[0];g(function(){i(function(){f(!0)})},[]);return b("React").createElement(b("XUIAmbientNUX.react"),{contextRef:a.contextRef,shown:e,onCloseButtonClick:c.onDismiss,position:"right"},c.content)}e.exports=a}),null);
