@@ -45,6 +45,28 @@
 	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
 	text-shadow: rgba(0,0,0,.01) 0 0 1px;
 }
+
+
+.abouth1{
+	background-color:darkblue;
+	text-align: center;
+	color:white;
+	height: 200px;
+	padding-top: 70px;
+
+}
+.features{
+	margin-top:120px;
+	/* height: 300px; */
+
+}
+.about0{
+	margin-top: 50px;
+	text-align: center;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
 body
 {
 	font-family: 'Roboto', sans-serif;
