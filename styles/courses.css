@@ -38,6 +38,9 @@
 .d-block{
 	height: 450px;
 }
+.card-block{
+	margin-top: 50px;
+}
 
 .programs {
     /* -moz-box-sizing: border-box;
