@@ -13,8 +13,9 @@
 	<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
 	<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
 	<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
-	<link rel="stylesheet" type="text/css" href="styles/about.css">
 	<link rel="stylesheet" type="text/css" href="styles/about_responsive.css">
+	<link rel="stylesheet" type="text/css" href="styles/about.css">
+
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<style>
@@ -52,10 +53,12 @@
 
 		<!-- Header -->
 
+			<!-- Header -->
+
 		<header class="header">
 
 			<!-- Top Bar -->
-			<div class="top_bar">
+			<div class="top_bar" >
 				<div class="top_bar_container">
 					<div class="container">
 						<div class="row">
@@ -75,7 +78,7 @@
 										</li>
 									</ul>
 									<div class="top_bar_login ml-auto">
-										<div class="login_button"><a href="admission.html">Apply</a></div>
+										<div class="login_button"  ><a href="admission.html">Apply</a></div>
 									</div>
 								</div>
 							</div>
@@ -91,10 +94,9 @@
 						<div class="col">
 							<div class="header_content d-flex flex-row align-items-center justify-content-start">
 								<div class="logo_container">
+									<img src="images/logos1.png" style="width:17%;">
 									<a href="#">
-										<div class="logo_text">
-											<img src="images/logos1.png" style="width:17%;">
-											SheCan<span>CODE</span></div>
+										<div class="logo_text">SheCan<span>CODE</span></div>
 									</a>
 								</div>
 								<nav class="main_nav_contaner ml-auto">
@@ -102,13 +104,21 @@
 										<li class="active"><a href="index.html">Home</a></li>
 										<li><a href="Programs.html"> Program</a></li>
 										<li><a href="about.html">About Us</a></li>
-
 										<li><a href="donate.html">Donate</a></li>
+
+
+										<li> </li>
 									</ul>
+
+									<!-- Hamburger -->
+
+
+									<div class="hamburger menu_mm">
+										<i class="fa fa-bars menu_mm" aria-hidden="true"></i>
+									</div>
 								</nav>
-								<div class="hamburger menu_mm">
-									<i class="fa fa-bars menu_mm" aria-hidden="true"></i>
-								</div>
+
+
 							</div>
 						</div>
 					</div>
@@ -121,7 +131,13 @@
 					<div class="row">
 						<div class="col">
 							<div class="header_search_content d-flex flex-row align-items-center justify-content-end">
-
+								<form action="#" class="header_search_form">
+									<input type="search" class="search_input" placeholder="Search" required="required">
+									<button
+										class="header_search_button d-flex flex-column align-items-center justify-content-center">
+										<i class="fa fa-search" aria-hidden="true"></i>
+									</button>
+								</form>
 							</div>
 						</div>
 					</div>
@@ -138,6 +154,7 @@
 					<div></div>
 				</div>
 			</div>
+
 			<nav class="menu_nav">
 				<ul class="menu_mm">
 					<li class="menu_mm"><a href="index.html">Home</a></li>
@@ -148,8 +165,9 @@
 			</nav>
 		</div>
 
-		<!-- Home -->
 
+		<!-- Home -->
+<!-- 
 		<div class="home">
 			<div class="breadcrumbs_container">
 				<div class="container">
@@ -165,25 +183,22 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</div> -->
 
 		<!-- About -->
 		<div class="features">
-			<div class="container">
+			<div class="container-fluided">
 				<div class="row">
 					<div class="col">
 						<div class="heading">
-							<h1>
-								About<br>
-								<hr id="about1">
-								<span
-									style="font-size:60px; font-family: Times New Roman, Times, serif;">SheCanCODE</span>
-							</h1>
+							<h1 class="abouth1">About</h1>
+							
 						</div>
 					</div>
 					<div class="row">
 						<p class="about0" style="font-size: 16px; font-style:arials;">SheCanCode, an “initiative launched by Igire Rwanda Organization ( IR0) in collaboration by USA Embassy Kigali aiming to bridge the digital skills gap by inspiring women to enter and remain in technology”. In this 12-week coding bootcamp, students learn how to develop mobile and web applications using resources provided by the American Corner Kigali. In addition to programming skills, the program equips students with a foundation in design, innovation, entrepreneurship, so that they may go on to solve important issues facing their own communities.
 
+							<br><br>
 							SheCanCODE Provide inspires and trains women in Rwanda to design full function web and mobile application for a period of 12 weeks and connect the finalist with tech companies for job placement. 
 							
 							IRO is also working with the US Embassy to promote STEM course participation among young girls in Rwandan high schools. By hosting coding workshops at schools across the country and bringing in successful SheCanCode alumni to share their testimonies, the organization hopes to inspire future generations of Rwandan women to position themselves at the forefront of the ever-growing innovation sector.</p>
@@ -191,8 +206,83 @@
 				</div>
 			</div>
 		</div>
-		
-		<div class="about">
+
+		<div class="container-fluide "style="margin-top:100px">
+			<div class="row">
+				<div class="col-lg-7">
+					<div class="row">
+						<div class="col-sm-6">
+							<img class="img-fluid" src="images/shecan2.jpg" width="420" >
+
+						</div>
+						<div class="col-sm-6">
+							<img class="img-fluid" src="images/shecan2.jpg" width="420" >
+
+						</div>
+					</div>	
+				</div>
+				
+				<div class="col-lg-5">
+					<img  src="images/shecan2.jpg" width="580" >
+
+				</div>
+			</div>
+			<div class="row" >
+				
+				<div class="col-lg-7" style="margin-top:-122px;">
+					<img class="img-fluid"src="images/shecan2.jpg" width="800">
+
+				</div>
+				<div class="col-lg-5"style="margin-top:25px">
+					<img  class="img-fluid"src="images/black.jpg" >
+
+				</div>
+			</div>
+
+
+		</div>
+		<div class="image">
+
+		</div>
+		<div class="change">
+			<p>We believe all women can embrace who they are,<br>
+				can define their future, and can change the world.</p>
+		</div>
+		<div class="mission-vission">
+			<div class="container-fluide">
+				<div class="row" >  
+					<div class="col-md-6 spell">
+						<h1> Our Mission</h1>
+						<p>To promote diversity and inclusion
+							in technology
+							by <br>promoting employment and innovation.
+						</p>
+					</div>
+					<div class="col-md-6">
+						<img  class="img-fluide img1"src="images/igirepicture.jpg" width="650" >
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<img  class="img-fluide img1"src="images/certificate.JPG" width="655" >
+
+					</div>
+					<div class="col-md-6 spell">
+						<h1> Our vision</h1>
+						<p> Graduate 10000 young women by 2030 and 90%+
+							job placement
+						</p>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<div class="donate">
+			<p>We Need Your Support Today!</p>
+			<button class="btn btn-primary">Donate</button>
+		</div>
+
+		<!-- <div class="about">
 			<div class="feature">
 				<div class="feature_background" style="background-image:url(images/courses_background.jpg)"></div>
 				<div class="container">
@@ -229,7 +319,7 @@
 
 
 		</div>
-	</div>
+	</div> -->
 
 	<!-- Footer -->
 
@@ -246,7 +336,7 @@
 			<div class="row events_row">
 
 				<!-- Event -->
-				<div class="col-lg-4 event_col">
+				<div class="col-lg-3 event_col">
 					<div class="event event_left">
 						<div class="event_image"><img src="images/logo2.jpg" alt=""></div>
 
@@ -254,19 +344,19 @@
 				</div>
 
 				<!-- Event -->
-				<div class="col-lg-4 event_col">
+				<div class="col-lg-3 event_col">
 					<div class="event event_mid">
 						<div class="event_image"><img style="width: 55%" src="images/stella.png" alt=""></div>
 
 					</div>
 				</div>
-				<div class="col-lg-4 event_col">
+				<div class="col-lg-3  event_col">
 					<div class="event event_mid">
 						<div class="event_image"><img src="images/progate.png" alt=""></div>
 
 					</div>
 				</div>
-				<div class="col-lg-4 event_col">
+				<div class="col-lg-3 event_col">
 					<div class="event event_mid">
 						<div class="event_image"><img src="images/dot.png" alt=""></div>
 
