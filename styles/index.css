@@ -1,4 +1,37 @@
 
+
+#button1,
+#button2,
+#button3,
+#button8 p {
+    display: none;
+ 
+}
+
+.kenya{
+    height: 500px;
+}
+.kenya a{
+    /* color: #c84869; */
+    color:#42beee;
+    font-size:23px;
+    font-weight: bold;
+
+}
+.kenya a:hover{
+    color: #c84869;
+    /* color: #68C9C4; */
+
+}
+.kenya h1{
+    font-size: 50px;
+    color:#42beee;
+    font-weight: bold;
+
+}
+.kenya p{
+    font-size:23px;
+}
 .home{
     background-image: url("../images/yvo.jpg");
     background-size: cover;
@@ -142,14 +175,17 @@ h6{
 }		
 .red{
     background-color:#c84869;
+    height: 150px;
     
 
 }
 .blue-sea{
     background-color:#7eb7e4;
+    height:150px;
 }
 .blue{
     background-color:#213e8c;
+    height:150px;
 }
 .mission h1{
     color:white;
