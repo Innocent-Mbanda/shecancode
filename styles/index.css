@@ -19,7 +19,7 @@ h6{
     margin-left: 150px;
 }
 .black{
-    background-color: black;
+    background-color:#384158;
     height:450px;
 
 }
@@ -30,14 +30,17 @@ h6{
 
 .black p{
     color: white;
-    margin : 100px;
+    margin : 80px;
     margin-bottom: 20px;
     text-align: left;
-    font-size: 18px;
+    font-size: 23px;
 
 }
 .black button{
-    margin-left:150px;
+    margin-left:100px;
+}
+.black h6{
+    margin-left: 250px;
 }
 .black2{
     height: 400px;
@@ -45,20 +48,31 @@ h6{
 .black5{
     background-image: url("../images/group1.jpg");
     background-attachment: fixed;
-    height: 650px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 730px;
+    
 }
 .black4{
     background-color:#c84869;
     height: 350px;
     top:0;
+    left:-18px;
+}
+.black4 h4{
+    color:white;
+    font-size: 20px;
+    margin-left: 80px;
+    margin-top: 40px;
+    width: 400px;
 }
 .black4 p{
     color:white;
-    font-size: 50px;
+    font-size: 44px;
     font-weight: bold;
     text-transform: uppercase;
-    margin-top: 40px;
-    margin: 100px;
+    margin-top: 30px;
+    margin-left: 70px;
     width: 500px;
 }
 .black3{
@@ -73,7 +87,8 @@ h6{
 .blackp p{
     color:white;
     padding:20px;
-    padding-top: 100px;
+    font-size:22px;
+    padding-top: 80px;
 
 
 }
@@ -86,23 +101,27 @@ h6{
     margin-left: 40px;
 }
 .black7{
-    background-color:chocolate;
-    height: 300px;
+    background-color:#213e8c;
+    opacity: 0.85;
+    height: 380px;
     top:350px;
 }
 .black7 p{
-    margin-top:60px;
-    color:white;
+    margin-top:30px;
+    color:whitesmoke;
+    font-size: 21px;
     margin-bottom: 20px;
 }
 .black9{
     background-color:black;
-    height:300px
+    opacity:0.85;
+    height:380px
 }
 .black9 p{
-    margin-top:60px;
+    margin-top:30px;
     color:white;
-    margin-bottom: 20px;
+    font-size: 21px;
+    margin-bottom: 10px;
 
 }
 
@@ -167,10 +186,10 @@ h6{
     position: relative;
     margin: auto;
     overflow: hidden;
-    width: 540px;
+    width: 640px;
 }
 .image-box img {
-    width: 350px;
+    width: 400px;
     transition: all 0.3s;
     display: block;
     /* width: 100%; */

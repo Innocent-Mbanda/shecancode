@@ -48,7 +48,7 @@
 
 
 .abouth1{
-	background-color:#213e8c;
+	background-color:#384158;
 	text-align: center;
 	color:white;
 	height: 200px;
@@ -101,6 +101,10 @@
 .spell{
 	margin-top: 100px;
 	padding-left: 150px;
+}
+.spell p{
+	margin-top: 30px;
+	font-size: 20px;
 }
 .donate{
 	
