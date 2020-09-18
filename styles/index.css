@@ -1,5 +1,4 @@
 
-
 #button1,
 #button2,
 #button3,
@@ -7,7 +6,12 @@
     display: none;
  
 }
-
+.thumbnail h2{
+    color:#1e2435;
+    font-size: 22px;
+    font-weight: bold;
+    word-spacing:inherit;
+}
 .kenya{
     height: 500px;
 }
@@ -126,7 +130,9 @@ h6{
 
 }
 .black6{
-    background-image: url("../images/igirepicture.jpg");
+    background-image: url("../images/joyeuse.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .btn-info{
     background-color: transparent;
