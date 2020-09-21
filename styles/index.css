@@ -1,5 +1,37 @@
+.number {
+    display: inline-block;
+    margin-left: 100px;
+    font-size: 20px;
+  }
+  
+  .vote {
+      margin-bottom:20px;
+    display: flex;
+    /* flex-direction: column; */
+    text-align: right;
+    
+  }
+  .write_comment{
+    color: dimgray;
+    cursor: pointer;
+    font-size: 20px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    text-align: left;
+    
 
-
+  }
+  .up-vote,
+  .down-vote {
+    color: dimgray;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  .vote.vote-up .up-vote,
+  .vote.vote-down .down-vote {
+    color: black;
+  }
 #button1,
 #button2,
 #button3,
@@ -7,7 +39,12 @@
     display: none;
  
 }
-
+.thumbnail h2{
+    color:#1e2435;
+    font-size: 22px;
+    font-weight: bold;
+    word-spacing:inherit;
+}
 .kenya{
     height: 500px;
 }
@@ -126,7 +163,9 @@ h6{
 
 }
 .black6{
-    background-image: url("../images/igirepicture.jpg");
+    background-image: url("../images/joyeuse.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .btn-info{
     background-color: transparent;

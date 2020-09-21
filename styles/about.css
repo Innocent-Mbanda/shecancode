@@ -45,7 +45,21 @@
 	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
 	text-shadow: rgba(0,0,0,.01) 0 0 1px;
 }
+.emerlyne{
 
+	height: 600px;
+}
+.row2{
+	height: 280px;
+}
+.long-image{
+	background-image: url("../images/2girls2.jpg.jpg");
+	background-repeat: no-repeat;
+	background-size:cover;
+	/* height: 4000px; */
+	/* background-attachment: fixed; */
+	/* background-position-x:center ; */
+}
 
 .abouth1{
 	background-color:#384158;
