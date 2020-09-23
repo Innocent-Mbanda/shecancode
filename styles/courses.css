@@ -63,7 +63,12 @@
     height: 450px;
     transform: scale(1);
 }
-
+.program h3{
+	font-size: 34px;
+}
+.programs p{
+	font-size: 20px;
+}
 .programs:hover img {
     transform: scale(1.1);
     background-color: black;
