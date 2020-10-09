@@ -328,6 +328,18 @@
 	{
 		padding-left: 0px;
 	}
+	.kenya{
+	margin-bottom:200px;
+	}
+	.kenya p,h1,a{
+		/* background-color: blue; */
+		padding:20px;
+		/* padding-bottom: 200px; */
+		/* height: 500px; */
+	}
+	.apply{
+		margin-bottom:-220px;
+	}
 }
 
 /************
