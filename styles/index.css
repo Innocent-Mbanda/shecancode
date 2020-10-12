@@ -271,7 +271,66 @@ h6{
     height: auto;
     transform: scale(1);
 }
-
+.course-detail{
+    margin-top: 5%;
+}
+.foundation{
+    text-align: center;
+    margin-top: 5%;
+}
+.timeline{
+    text-align: center;
+    background-color: #c84869;
+}
+.timeline h4{
+    color: white;
+    font-weight: bold;
+}
+.timeline p{
+    color: white;
+}
+.course-box{
+    text-align: center;
+    background-color:#7eb7e4;
+}
+.course-box h4{
+    color: white;
+    font-weight: bold;
+}
+.course-box p{
+    color:white;
+}
+.comp{
+    text-align: center;
+    background-color: #213e8c;
+}
+.comp h4{
+    color: white;
+    font-weight: bold;
+}
+.comp p{
+    color: white;
+}
+.apply{
+    background-color: #213e8c;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    /* margin: 4px 2px; */
+    margin-left: 45%;
+    margin-top: 7%;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.apply a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
 .image-box:hover img {
     transform: scale(1.1);
     background-color: black;
